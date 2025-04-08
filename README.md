@@ -33,8 +33,8 @@ cd flask-api
 ### 2. Set Up Virtual Environment
 
 python -m venv venv
-venv\Scripts\activate  # On Windows
-source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows                
+source venv/bin/activate  # On macOS/Linux  
 
 ### 3. Install Dependencies
 
@@ -44,5 +44,5 @@ pip install -r requirements.txt
 
 python app.py
 
-API will be live at: http://127.0.0.1:5000/
+API will be live at: http://127.0.0.1:5000/                         
 Swagger UI: http://127.0.0.1:5000/users
